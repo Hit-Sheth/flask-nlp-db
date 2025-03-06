@@ -1,0 +1,53 @@
+select * from student;
++------+----------------+----------+------------------+------+
+| roll | name           | division | branch           | cgpa |
++------+----------------+----------+------------------+------+
+|  101 | Amit Sharma    | A        | Computer Science | 8.50 |
+|  102 | Priya Patel    | B        | Electronics      | 7.90 |
+|  103 | Rahul Verma    | A        | Mechanical       | 7.50 |
+|  104 | Neha Singh     | C        | Civil            | 8.20 |
+|  105 | Karan Mehta    | B        | Electrical       | 7.80 |
+|  106 | Pooja Rao      | A        | Computer Science | 8.90 |
+|  107 | Vikas Yadav    | C        | Electronics      | 7.60 |
+|  108 | Sneha Nair     | B        | Mechanical       | 8.00 |
+|  109 | Rohan Das      | A        | Civil            | 7.40 |
+|  110 | Anjali Gupta   | C        | Electrical       | 8.10 |
+|  111 | Manish Kumar   | B        | Computer Science | 8.30 |
+|  112 | Divya Pillai   | A        | Electronics      | 7.70 |
+|  113 | Sachin Desai   | C        | Mechanical       | 8.60 |
+|  114 | Meera Iyer     | B        | Civil            | 7.90 |
+|  115 | Arjun Reddy    | A        | Electrical       | 8.40 |
+|  116 | Sonal Jain     | C        | Computer Science | 8.80 |
+|  117 | Harish Menon   | B        | Electronics      | 7.50 |
+|  118 | Ritika Bose    | A        | Mechanical       | 8.20 |
+|  119 | Yash Tiwari    | C        | Civil            | 7.30 |
+|  120 | Sanya Malhotra | B        | Electrical       | 8.00 |
++------+----------------+----------+------------------+------+
+ SELECT * FROM teacher;
++------------+----------------+--------------------+------------+----------+------------+--------------+
+| teacher_id | name           | subject            | experience | salary   | department | joining_date |
++------------+----------------+--------------------+------------+----------+------------+--------------+
+|          1 | Alice Johnson  | Mathematics        |         10 | 75000.00 | Science    | 2015-06-10   |
+|          2 | Bob Smith      | Electronics        |          8 | 72000.00 | Science    | 2017-08-15   |
+|          3 | Charlie Brown  | Mechanical         |         12 | 78000.00 | Science    | 2013-04-22   |
+|          4 | David Williams | English            |          6 | 68000.00 | Arts       | 2019-01-05   |
+|          5 | Emma Davis     | Civil              |         15 | 80000.00 | Arts       | 2010-09-30   |
+|          6 | Frank Miller   | Electrical         |          9 | 73000.00 | Science    | 2016-11-12   |
+|          7 | Grace Wilson   | Computer Science   |          7 | 76000.00 | Technology | 2018-03-25   |
+|          8 | Henry Moore    | Economics          |         11 | 77000.00 | Commerce   | 2014-07-14   |
+|          9 | Isabel Taylor  | Political Science  |          5 | 65000.00 | Arts       | 2020-12-01   |
+|         10 | Jack White     | Physical Education |         13 | 71000.00 | Sports     | 2012-05-18   |
++------------+----------------+--------------------+------------+----------+------------+--------------+
+
+
+ SELECT * FROM cr;
++------+--------------+----------+------------------+
+| roll | name         | division | branch           |
++------+--------------+----------+------------------+
+|  101 | Amit Sharma  | A        | Computer Science |
+|  102 | Priya Patel  | B        | Electronics      |
+|  104 | Neha Singh   | C        | Civil            |
+|  108 | Sneha Nair   | B        | Mechanical       |
+|  112 | Divya Pillai | A        | Electronics      |
+|  116 | Sonal Jain   | C        | Computer Science |
++------+--------------+----------+------------------+

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DBMS Project Hit</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h2>Enter Your Query:</h2>
+        <form method="POST">
+            <input type="text" name="query" placeholder="Enter natural language query" required>
+            <button type="submit">Submit</button>
+        </form>
+
+        {% if q %}
+            <h3>Generated SQL Query:</h3>
+            <p><strong>{{ q }};</strong></p>
+        {% endif %}
+        
+        {% if data %}
+            <h3>Query Results:</h3>
+            <table>
+                <thead>
+                    <tr>
+                        {% for column in columns %}
+                            <th>{{ column }}</th>
+                        {% endfor %}
+                    </tr>
+                </thead>
+                <tbody>
+                    {% for row in data %}
+                        <tr>
+                            {% for value in row %}
+                                <td>{{ value }}</td>
+                            {% endfor %}
+                        </tr>
+                    {% endfor %}
+                </tbody>
+            </table>
+        {% endif %}
+    </div>
+</body>
+</html>

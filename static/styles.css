@@ -1,0 +1,243 @@
+@keyframes changeBg {
+    0% { background-color: #1a1a1a; }  /* Almost Black */
+    5% { background-color: #2b2b2b; }
+    10% { background-color: #3c3c3c; }
+    15% { background-color: #4d4d4d; }
+    20% { background-color: #5e5e5e; }
+    25% { background-color: #6f6f6f; }
+    30% { background-color: #808080; } /* Classic Gray */
+    35% { background-color: #919191; }
+    40% { background-color: #a2a2a2; }
+    45% { background-color: #b3b3b3; }
+    50% { background-color: #c4c4c4; }
+    55% { background-color: #d5d5d5; }
+    60% { background-color: #e6e6e6; }
+    65% { background-color: #d4d4d4; }
+    70% { background-color: #bfbfbf; }
+    75% { background-color: #a5a5a5; }
+    80% { background-color: #8c8c8c; }
+    85% { background-color: #737373; }
+    90% { background-color: #595959; }
+    95% { background-color: #404040; }
+    100% { background-color: #1a1a1a; } /* Back to Almost Black */
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    color: #dcdcdc; /* Light gray text */
+    max-width: 100%;
+    margin: 0;
+    padding: 20px;
+    animation: changeBg 20s infinite alternate; /* Slow Smooth Transition */
+}
+
+/* Dark Container with Semi-Transparency */
+.container {
+    background-color: rgba(26, 32, 44, 0.85); /* Dark Gray with 85% opacity */
+    padding: 20px;@keyframes changeBg {
+        0% { background-color: #1a1a1a; }  /* Almost Black */
+        5% { background-color: #2b2b2b; }
+        10% { background-color: #3c3c3c; }
+        15% { background-color: #4d4d4d; }
+        20% { background-color: #5e5e5e; }
+        25% { background-color: #6f6f6f; }
+        30% { background-color: #808080; } /* Classic Gray */
+        35% { background-color: #919191; }
+        40% { background-color: #a2a2a2; }
+        45% { background-color: #b3b3b3; }
+        50% { background-color: #c4c4c4; }
+        55% { background-color: #d5d5d5; }
+        60% { background-color: #e6e6e6; }
+        65% { background-color: #d4d4d4; }
+        70% { background-color: #bfbfbf; }
+        75% { background-color: #a5a5a5; }
+        80% { background-color: #8c8c8c; }
+        85% { background-color: #737373; }
+        90% { background-color: #595959; }
+        95% { background-color: #404040; }
+        100% { background-color: #1a1a1a; } /* Back to Almost Black */
+    }
+    
+    body {
+        font-family: "Poppins", Arial, sans-serif;
+        line-height: 1.6;
+        color: #dcdcdc;
+        max-width: 100%;
+        margin: 0;
+        padding: 20px;
+        animation: changeBg 20s infinite alternate; /* Smooth transition */
+    }
+    
+    /* Dark Container with Glassmorphism Effect */
+    .container {
+        background: rgba(26, 32, 44, 0.75); /* Dark Gray with 75% transparency */
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+        color: white;
+        backdrop-filter: blur(8px); /* Blurry Glass Effect */
+    }
+    
+    /* Stylish Table */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 20px;
+        background: rgba(250, 249, 249, 0.993); /* Dark table with transparency */
+        color: rgb(19, 18, 18);
+        box-shadow: 0 4px 6px rgba(99, 98, 98, 0.322);
+        border-radius: 10px;
+        overflow: hidden;
+    }
+    
+    /* Table Headers & Rows */
+    th, td {
+        padding: 12px;
+        text-align: left;
+        border-bottom: 1px solid #666; /* Darker Gray Border */
+    }
+    
+    th {
+        background-color: rgba(44, 44, 44, 0.9); /* Dark Header */
+        color: rgb(255, 75, 75); /* Soft Red */
+        font-weight: bold;
+    }
+    
+    tr:nth-child(even) {
+        background-color: rgba(211, 209, 209, 0.932); /* Dark Gray for even rows */
+    }
+    
+    tr:hover {
+        background-color: rgba(100, 100, 100, 0.9); /* Slightly lighter Gray */
+        transition: 0.3s ease;
+    }
+    
+    /* Input Field Styling */
+    input[type="text"] {
+        width: 70%;
+        padding: 12px;
+        margin-right: 10px;
+        border: 2px solid #cbd5e0;
+        border-radius: 8px;
+        background-color: rgba(255, 255, 255, 0.8);
+        color: #2d3748;
+        transition: all 0.3s ease-in-out;
+    }
+    
+    input[type="text"]:focus {
+        border-color: hotpink;
+        outline: none;
+        transform: scale(1.05);
+    }
+    
+    /* Fancy Button Styling */
+    button {
+        padding: 12px 18px;
+        background: linear-gradient(45deg, #ff477e, #ff6b6b);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        transition: all 0.3s ease;
+        font-weight: bold;
+    }
+    
+    button:hover {
+        background: linear-gradient(45deg, #ff6b6b, #ff477e);
+        transform: scale(1.1);
+    }
+    
+    /* Stylish Headings */
+    h2 {
+        color: #ff6b6b;
+        text-transform: uppercase;
+        font-weight: bold;
+    }
+    
+    h3 {
+        color: #5f8bd8;
+        font-style: italic;
+    }
+    
+    p {
+        color: hotpink;
+        font-size: 16px;
+        font-weight: bold;
+        text-shadow: 1px 1px 3px rgba(255, 20, 147, 0.4);
+    }
+    
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    color: white;
+}
+
+/* Black Table with Semi-Transparent Effect */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.8); /* Black with slight transparency */
+    color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+/* Table Headers & Rows */
+th, td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #d4c5c5; /* Mid Gray */
+}
+
+th {
+    background-color: rgba(244, 242, 248, 100); /* Darker Header */
+    color: rgb(202, 39, 39);
+    font-weight: bold;
+}
+
+tr:nth-child(even) {
+    background-color: rgba(51, 51, 51, 0.8); /* Medium Gray */
+}
+
+tr:hover {
+    background-color: rgba(68, 68, 68, 0.9); /* Slightly Lighter Gray */
+}
+
+/* Input Field Styling */
+input[type="text"] {
+    width: 70%;
+    padding: 10px;
+    margin-right: 10px;
+    border: 1px solid #cbd5e0;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #2d3748;
+}
+
+/* Button Styling */
+button {
+    padding: 10px 15px;
+    background-color: #4299e1;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #3182ce;
+}
+
+/* Headings */
+ h3{
+    color: #5f8bd8;
+}
+h2{
+    color: #e46b6b;
+}
+p{
+    color: hotpink;
+}
